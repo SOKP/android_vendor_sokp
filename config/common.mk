@@ -121,6 +121,12 @@ vendor/sokp/proprietary/app/Launcher/ASUS-Launcher-1.4.0.150424.apk:system/app/L
 vendor/sokp/proprietary/app/SOKPStats/SOKPStats.apk:system/app/SOKPStats/SOKPStats.apk \
 vendor/sokp/proprietary/app/Daysence/com.asus.livewallpaper.asusdayscene.apk:system/app/Daysence/com.asus.livewallpaper.asusdayscene.apk	
 	
+
+# CM Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.hardware \
+    org.cyanogenmod.hardware.xml
+
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
 
