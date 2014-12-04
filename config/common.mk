@@ -188,7 +188,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(SOKP_MOD_VERSION) \
     ro.sokp.buildtype=$(SOKP_BUILD_TYPE)
 
+# SOKP Tools
 EXTENDED_POST_PROCESS_PROPS := vendor/sokp/tools/sokp_process_props.py
+SQUISHER_SCRIPT := vendor/sokp/tools/squisher
 
 # statistics identity
   PRODUCT_PROPERTY_OVERRIDES += \
