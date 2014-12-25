@@ -190,6 +190,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # SOKP Tools
 EXTENDED_POST_PROCESS_PROPS := vendor/sokp/tools/sokp_process_props.py
+FINISHER_SCRIPT := vendor/sokp/tools/finisher
 SQUISHER_SCRIPT := vendor/sokp/tools/squisher
 
 # statistics identity
