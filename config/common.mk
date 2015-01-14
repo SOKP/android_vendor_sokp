@@ -211,3 +211,5 @@ SQUISHER_SCRIPT := vendor/sokp/tools/squisher
   ro.romstats.version=-$(PRODUCT_VERSION_MAJOR)-$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE) \
   ro.romstats.askfirst=0 \
   ro.romstats.tframe=1
+
+include vendor/config/sm.mk
