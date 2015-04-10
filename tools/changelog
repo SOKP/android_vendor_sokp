@@ -4,17 +4,28 @@
 
 CURRENT_DATE=`date +%Y%m%d`
 PREVIOUS_DATE=`date +%s -d "1 day ago"`
-LAST_DATE=`sed -n -e'/ro.build.date.utc/s/^.*=//p' $ANDROID_BUILD_TOP/last_build.prop`
 
+# Get last build prop
+LAST_PROP=last_build-$TARGET_DEVICE.prop
+if [ ! -f "$LAST_PROP" ]; then
+    LAST_PROP=last_build.prop
+    if [ ! -f "$LAST_PROP" ]; then
+        echo ${CL_RED}"Cannot generate changelog"${CL_RST}
+        echo ${CL_RED}"Extract build.prop from previous released build and rename it to last_build-{DeviceName}.prop"${CL_RST}
+        exit 0
+    fi
+fi
+
+# Get last build date
+LAST_DATE=`sed -n -e'/ro.build.date.utc/s/^.*=//p' $ANDROID_BUILD_TOP/$LAST_PROP`
 if [ -z "$LAST_DATE" ]; then
     WORKING_DATE=${PREVIOUS_DATE}
 else
     WORKING_DATE=${LAST_DATE}
 fi
 
-CHANGELOG=$OUT/system/etc/changelog.txt
-
 # Remove existing changelog
+CHANGELOG=$OUT/system/etc/changelog.txt
 file="$CHANGELOG"
 if [ -f "$file" ]; then
     echo ${CL_CYN}"Removing existing ${CHANGELOG}"${CL_RST}
@@ -38,6 +49,7 @@ do
     fi
 done
 
+# Copy changelog file to the root folder
 cp $CHANGELOG $ANDROID_BUILD_TOP/Changelog_${CURRENT_DATE}.txt
 
 exit 0
