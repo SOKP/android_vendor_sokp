@@ -106,6 +106,19 @@ PRODUCT_PACKAGES += \
     libFFmpegExtractor \
     libnamparser
 
+#SOKP Proprietary FIles
+PRODUCT_COPY_FILES += \
+vendor/sokp/proprietary/fonts/Roboto-Bold.ttf:system/fonts/Roboto-Bold.ttf \
+vendor/sokp/proprietary/fonts/Roboto-BoldItalic.ttf:system/fonts/Roboto-BoldItalic.ttf \
+vendor/sokp/proprietary/fonts/Roboto-Italic.ttf:system/fonts/Roboto-Italic.ttf \
+vendor/sokp/proprietary/fonts/Roboto-Light.ttf:system/fonts/Roboto-Light.ttf \
+vendor/sokp/proprietary/fonts/Roboto-LightItalic.ttf:system/fonts/Roboto-LightItalic.ttf \
+vendor/sokp/proprietary/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
+vendor/sokp/proprietary/app/FileManager/MiXplorer_v5.2.18_build_201504182_test.apk:system/app/FileManager/MiXplorer_v5.2.18_build_201504182_test.apk \
+vendor/sokp/proprietary/app/Launcher/ASUS-Launcher-1.4.0.150424.apk:system/app/Launcher/ASUS-Launcher-1.4.0.150424.apk \
+vendor/sokp/proprietary/app/SOKPStats/SOKPStats.apk:system/app/SOKPStats/SOKPStats.apk \
+vendor/sokp/proprietary/app/Daysence/com.asus.livewallpaper.asusdayscene.apk:system/app/Daysence/com.asus.livewallpaper.asusdayscene.apk	
+	
 # easy way to extend to add more packages
 -include vendor/extra/product.mk
 
