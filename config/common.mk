@@ -188,3 +188,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 EXTENDED_POST_PROCESS_PROPS := vendor/sokp/tools/sokp_process_props.py
 
+# statistics identity
+  PRODUCT_PROPERTY_OVERRIDES += \
+  ro.romstats.url=http://statistics.sonic-developers.com/ \
+  ro.romstats.name=SOKP \
+  ro.romstats.version=-$(SOKP_Version) \
+  ro.romstats.askfirst=0 \
+  ro.romstats.tframe=1
