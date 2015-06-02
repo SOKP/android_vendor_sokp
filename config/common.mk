@@ -76,18 +76,12 @@ PRODUCT_PACKAGES += \
 # Optional packages
 PRODUCT_PACKAGES += \
     Basic \
-    LiveWallpapersPicker \
-    PhaseBeam
-
-# AudioFX
-PRODUCT_PACKAGES += \
-    AudioFX
+    LiveWallpapersPicker
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
     LatinIME \
     BluetoothExt \
-    DashClock \
 	Eleven \
     LockClock
 
