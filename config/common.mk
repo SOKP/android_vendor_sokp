@@ -73,6 +73,11 @@ PRODUCT_PACKAGES += \
     Superuser \
     su
 
+# Screen recorder package and lib
+PRODUCT_PACKAGES += \
+    ScreenRecorder \
+    libscreenrecorder
+	
 # Optional packages
 PRODUCT_PACKAGES += \
     Basic \
