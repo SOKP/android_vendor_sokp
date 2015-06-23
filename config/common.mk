@@ -120,7 +120,7 @@ vendor/sokp/proprietary/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf
 vendor/sokp/proprietary/app/FileManager/MiXplorer_v5.2.18_build_201504182_test.apk:system/app/FileManager/MiXplorer_v5.2.18_build_201504182_test.apk \
 vendor/sokp/proprietary/app/Launcher/ASUS-Launcher-1.4.0.150424.apk:system/app/Launcher/ASUS-Launcher-1.4.0.150424.apk \
 vendor/sokp/proprietary/app/SOKPStats/SOKPStats.apk:system/app/SOKPStats/SOKPStats.apk \
-vendor/sokp/proprietary/app/LayersManager/Layers-Manager-3.7.apk:system/app/LayersManager/Layers-Manager-3.7.apk \
+vendor/sokp/proprietary/app/LayersManager/com.lovejoy777.rroandlayersmanager-11.apk:system/app/LayersManager/com.lovejoy777.rroandlayersmanager-11.apk \
 vendor/sokp/proprietary/app/Daysence/com.asus.livewallpaper.asusdayscene.apk:system/app/Daysence/com.asus.livewallpaper.asusdayscene.apk	
 
 # CM Hardware Abstraction Framework
