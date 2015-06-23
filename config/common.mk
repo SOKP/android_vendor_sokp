@@ -88,7 +88,8 @@ PRODUCT_PACKAGES += \
     LatinIME \
     BluetoothExt \
 	Eleven \
-    LockClock
+    LockClock \
+	KernelAdiutor
 
 # Extra tools
 PRODUCT_PACKAGES += \
