@@ -121,7 +121,7 @@ vendor/sokp/proprietary/fonts/Roboto-LightItalic.ttf:system/fonts/Roboto-LightIt
 vendor/sokp/proprietary/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
 vendor/sokp/proprietary/app/FileManager/MiXplorer_v5.2.18_build_201504182_test.apk:system/app/FileManager/MiXplorer_v5.2.18_build_201504182_test.apk \
 vendor/sokp/proprietary/app/SOKPStats/SOKPStats.apk:system/app/SOKPStats/SOKPStats.apk \
-vendor/sokp/proprietary/app/LayersManager/com.lovejoy777.rroandlayersmanager-11.apk:system/app/LayersManager/com.lovejoy777.rroandlayersmanager-11.apk
+vendor/sokp/proprietary/app/LayersManager/com.lovejoy777.rroandlayersmanager-12.apk:system/app/LayersManager/com.lovejoy777.rroandlayersmanager-12.apk
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
