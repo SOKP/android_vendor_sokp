@@ -90,7 +90,8 @@ PRODUCT_PACKAGES += \
 	Eleven \
     LockClock \
 	KernelAdiutor \
-	SonicLauncher
+	SonicLauncher \
+    WallpaperPicker
 
 # Extra tools
 PRODUCT_PACKAGES += \
