@@ -89,7 +89,6 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
 	Eleven \
     LockClock \
-	KernelAdiutor \
 	SonicLauncher \
     WallpaperPicker
 
