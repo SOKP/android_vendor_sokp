@@ -122,7 +122,7 @@ vendor/sokp/proprietary/fonts/Roboto-Italic.ttf:system/fonts/Roboto-Italic.ttf \
 vendor/sokp/proprietary/fonts/Roboto-Light.ttf:system/fonts/Roboto-Light.ttf \
 vendor/sokp/proprietary/fonts/Roboto-LightItalic.ttf:system/fonts/Roboto-LightItalic.ttf \
 vendor/sokp/proprietary/fonts/Roboto-Regular.ttf:system/fonts/Roboto-Regular.ttf \
-vendor/sokp/proprietary/app/FileManager/MiXplorer_v5.2.18_build_201504182_test.apk:system/app/FileManager/MiXplorer_v5.2.18_build_201504182_test.apk \
+vendor/sokp/proprietary/app/FileManager/MiXplorer_v5.3.8.BETA_B1507071.apk:system/app/FileManager/MiXplorer_v5.3.8.BETA_B1507071.apk \
 vendor/sokp/proprietary/app/SOKPStats/SOKPStats.apk:system/app/SOKPStats/SOKPStats.apk \
 vendor/sokp/proprietary/priv-app/QuickBoot/QuickBoot.apk:system/priv-app/QuickBoot/QuickBoot.apk \
 vendor/sokp/proprietary/app/LayersManager/com.lovejoy777.rroandlayersmanager-12.apk:system/app/LayersManager/com.lovejoy777.rroandlayersmanager-12.apk
