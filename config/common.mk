@@ -212,4 +212,4 @@ SQUISHER_SCRIPT := vendor/sokp/tools/squisher
   ro.romstats.askfirst=0 \
   ro.romstats.tframe=1
 
-include vendor/config/sm.mk
+include vendor/sokp/config/sm.mk
