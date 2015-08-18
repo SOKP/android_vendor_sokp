@@ -6,7 +6,7 @@ CURRENT_DATE=`date +%Y%m%d`
 PREVIOUS_DATE=`date +%s -d "1 day ago"`
 
 # Get last build prop
-LAST_PROP=last_build-$TARGET_DEVICE.prop
+LAST_PROP=last_build-$SOKP_BUILD.prop
 if [ ! -f "$LAST_PROP" ]; then
     LAST_PROP=last_build.prop
     if [ ! -f "$LAST_PROP" ]; then
